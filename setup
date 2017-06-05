@@ -1,0 +1,7 @@
+#/bin/bash -e
+
+dirname=`dirname $0`
+python3 -m venv $dirname/venv
+. $dirname/venv/bin/activate
+pip install --upgrade pip
+pip install --requirement requirements.txt
