@@ -1,2 +1,3 @@
 htpasswd==2.3
 pyotp==2.2.5
+qrcode==5.3
