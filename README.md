@@ -22,6 +22,8 @@ Generate htpasswd file.
 make-totp-htpasswd /var/tmp/user.secret /var/tmp/pass.secret /var/tmp/htpasswd
 ```
 
+Cron job to re-generate htpasswd file every minute.
+
 ```
 */1 * * * * www-data make-totp-htpasswd /var/tmp/user.secret /var/tmp/pass.secret /var/tmp/htpasswd
 ```
